@@ -1,0 +1,134 @@
+/* screen - homepage-2 */
+
+.homepage-2 {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 790px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.homepage-2 .overlap-group2 {
+  height: 796px;
+  margin-left: -154px;
+  margin-top: 30px;
+  position: relative;
+  width: 1131px;
+}
+
+.homepage-2 .contact {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 269px;
+  left: 766px;
+  min-width: 269px;
+  position: absolute;
+  top: 428px;
+  transition: all 0.4s ease;
+}
+
+.homepage-2 .contact:hover {
+  transform: scale(1.1);
+}
+
+.homepage-2 .overlap-group1 {
+  height: 269px;
+  position: relative;
+  width: 269px;
+}
+
+.homepage-2 .contact-logo {
+  height: 206px;
+  left: 30px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 206px;
+}
+
+.homepage-2 .circle {
+  height: 269px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 269px;
+}
+
+.homepage-2 .slogen {
+  height: 378px;
+  left: 590px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 541px;
+}
+
+.homepage-2 .project {
+  background-image: url(../img/project-logo@1x.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 185px;
+  left: 332px;
+  position: absolute;
+  top: 378px;
+  transition: all 0.2s ease;
+  width: 240px;
+}
+
+.homepage-2 .project:hover {
+  transform: scale(1.1);
+}
+
+.homepage-2 .animation1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61b7e903594e92a1b9c45a08/files/animation1.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 592px;
+  left: 0;
+  position: absolute;
+  top: 204px;
+  width: 848px;
+}
+
+.homepage-2 .about-me {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 277px;
+  min-width: 331px;
+  transition: all 0.4s ease;
+}
+
+.homepage-2 .about-me:hover {
+  transform: scale(1.1);
+}
+
+.homepage-2 .overlap-group {
+  height: 331px;
+  position: relative;
+  width: 331px;
+}
+
+.homepage-2 .me-logo {
+  height: 321px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 321px;
+}
+
+.homepage-2 .circle-1 {
+  height: 317px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 317px;
+}

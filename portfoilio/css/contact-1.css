@@ -1,0 +1,110 @@
+/* screen - contact-1 */
+
+.contact-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 790px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.contact-1 .overlap-group1 {
+  align-items: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61b5442fa2066833ee7a7053/files/flow-line1.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1018px;
+  margin-top: -90px;
+  min-width: 1440px;
+  padding: 129px 34px;
+}
+
+.contact-1 .overlap-group {
+  align-self: flex-start;
+  height: 78px;
+  position: relative;
+  width: 93px;
+}
+
+.contact-1 .x2 {
+  height: 62px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 79px;
+}
+
+.contact-1 .x7 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 20px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.contact-1 .x15 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.contact-1 .x17 {
+  background-color: var(--orange-peel);
+  border-radius: 10px;
+  height: 20px;
+  left: 37px;
+  position: absolute;
+  top: 58px;
+  width: 20px;
+}
+
+.contact-1 .x8 {
+  height: 236px;
+  margin-left: 133px;
+  margin-top: 178.0px;
+  object-fit: cover;
+  width: 236px;
+}
+
+.contact-1 .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 134.0px;
+  margin-left: 82px;
+  min-height: 388px;
+  width: 703px;
+}
+
+.contact-1 .x5cd3e44a3f8b4fc5ab7b8ca1cc226957 {
+  border-radius: 96px;
+  height: 192px;
+  margin-left: 45px;
+  object-fit: cover;
+  width: 192px;
+}
+
+.contact-1 .kevinxu0715gmailcom {
+  -webkit-text-stroke: 2px var(--dove-gray);
+  color: var(--dove-gray);
+  font-family: var(--font-family-applesd_gothic_neo-regular);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 59px;
+  margin-top: 123px;
+  min-height: 73px;
+  text-align: center;
+  text-decoration: underline;
+  width: 703px;
+}

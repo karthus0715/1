@@ -1,0 +1,154 @@
+/* screen - homepage */
+
+.homepage {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 790px;
+  padding: 0 131px;
+  width: 1440px;
+}
+
+.homepage .overlap-group4 {
+  height: 697px;
+  margin-left: 24px;
+  margin-top: 30px;
+  position: relative;
+  width: 822px;
+}
+
+.homepage .contact {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 269px;
+  left: 457px;
+  min-width: 269px;
+  position: absolute;
+  top: 428px;
+  transition: all 0.4s ease;
+}
+
+.homepage .contact:hover {
+  transform: scale(1.1);
+}
+
+.homepage .overlap-group1 {
+  height: 269px;
+  position: relative;
+  width: 269px;
+}
+
+.homepage .contact-logo {
+  height: 206px;
+  left: 30px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 206px;
+}
+
+.homepage .circle {
+  height: 269px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 269px;
+}
+
+.homepage .overlap-group3 {
+  height: 609px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 822px;
+}
+
+.homepage .slogen {
+  height: 378px;
+  left: 281px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 541px;
+}
+
+.homepage .project {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 287px;
+  left: 0;
+  min-width: 287px;
+  position: absolute;
+  top: 322px;
+  transition: all 0.2s ease;
+}
+
+.homepage .project:hover {
+  transform: scale(1.1);
+}
+
+.homepage .overlap-group2 {
+  height: 287px;
+  position: relative;
+  width: 287px;
+}
+
+.homepage .project-logo {
+  height: 185px;
+  left: 23px;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 240px;
+}
+
+.homepage .circle-1 {
+  height: 287px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 287px;
+}
+
+.homepage .about-me {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  margin-left: 1px;
+  margin-top: 277px;
+  min-width: 331px;
+  transition: all 0.4s ease;
+}
+
+.homepage .about-me:hover {
+  transform: scale(1.1);
+}
+
+.homepage .overlap-group {
+  height: 331px;
+  position: relative;
+  width: 331px;
+}
+
+.homepage .me-logo {
+  height: 321px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 321px;
+}
+
+.homepage .circle-2 {
+  height: 317px;
+  left: 14px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 317px;
+}

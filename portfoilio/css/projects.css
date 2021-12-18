@@ -1,0 +1,140 @@
+/* screen - projects */
+
+.projects {
+  align-items: center;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 2370px;
+  padding: 15px 26px;
+  width: 1440px;
+}
+
+.projects .menu {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 54.5px;
+  cursor: pointer;
+  display: flex;
+  height: 109px;
+  left: 26px;
+  min-width: 109px;
+  padding: 7px 8px;
+  position: fixed;
+  top: 15px;
+  z-index: 4;
+}
+
+.projects .overlap-group {
+  height: 78px;
+  position: relative;
+  width: 93px;
+}
+
+.projects .x2 {
+  height: 62px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 79px;
+}
+
+.projects .x7 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 20px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.projects .x6 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 20px;
+  left: 37px;
+  position: absolute;
+  top: 58px;
+  width: 20px;
+}
+
+.projects .x16 {
+  background-color: var(--orange-peel);
+  border-radius: 10px;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.projects .x2021-12-12-125910 {
+  cursor: pointer;
+  height: 560px;
+  margin-right: 18.0px;
+  margin-top: 177px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 1166px;
+  z-index: 2;
+}
+
+.projects .x2021-12-12-125910:hover {
+  transform: scale(1.1);
+}
+
+.projects .x2021-12-12-125922 {
+  cursor: pointer;
+  height: 560px;
+  margin-right: 18.0px;
+  margin-top: 150px;
+  object-fit: cover;
+  transition: all 0.2s ease;
+  width: 1166px;
+  z-index: 3;
+}
+
+.projects .x2021-12-12-125922:hover {
+  transform: scale(1.1);
+}
+
+.projects .overlap-group1 {
+  height: 560px;
+  margin-right: 18.0px;
+  margin-top: 150px;
+  position: relative;
+  width: 1166px;
+  z-index: 1;
+}
+
+.projects .x2021-12-12-125922-1 {
+  cursor: pointer;
+  height: 560px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  transition: all 0.2s ease;
+  width: 1166px;
+}
+
+.projects .x2021-12-12-125922-1:hover {
+  transform: scale(1.1);
+}
+
+.projects .title {
+  color: #ff0000;
+  font-family: var(--font-family-applesd_gothic_neo-regular);
+  font-size: var(--font-size-xxxxxl);
+  font-weight: 400;
+  left: 164px;
+  letter-spacing: 0;
+  line-height: 200px;
+  position: absolute;
+  text-align: center;
+  top: 160px;
+  width: 858px;
+}

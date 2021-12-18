@@ -1,0 +1,151 @@
+/* screen - homepage-1 */
+
+.homepage-1 {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 790px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.homepage-1 .overlap-group3 {
+  height: 767px;
+  margin-left: 155px;
+  margin-top: 30px;
+  position: relative;
+  width: 1420px;
+}
+
+.homepage-1 .about-me {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 636px;
+  justify-content: center;
+  left: 509px;
+  min-width: 911px;
+  position: absolute;
+  top: 131px;
+  transition: all 0.4s ease;
+}
+
+.homepage-1 .about-me:hover {
+  transform: scale(1.1);
+}
+
+.homepage-1 .overlap-group {
+  height: 636px;
+  position: relative;
+  width: 911px;
+}
+
+.homepage-1 .me-logo {
+  height: 321px;
+  left: 314px;
+  object-fit: cover;
+  position: absolute;
+  top: 126px;
+  width: 321px;
+}
+
+.homepage-1 .animation1 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61b7e903594e92a1b9c45a08/files/animation1.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 636px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 911px;
+}
+
+.homepage-1 .contact {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 269px;
+  left: 457px;
+  min-width: 269px;
+  position: absolute;
+  top: 428px;
+  transition: all 0.4s ease;
+}
+
+.homepage-1 .contact:hover {
+  transform: scale(1.1);
+}
+
+.homepage-1 .overlap-group1 {
+  height: 269px;
+  position: relative;
+  width: 269px;
+}
+
+.homepage-1 .contact-logo {
+  height: 206px;
+  left: 30px;
+  object-fit: cover;
+  position: absolute;
+  top: 36px;
+  width: 206px;
+}
+
+.homepage-1 .circle {
+  height: 269px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 269px;
+}
+
+.homepage-1 .slogen {
+  height: 378px;
+  left: 281px;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 541px;
+}
+
+.homepage-1 .project {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  height: 287px;
+  left: 0;
+  min-width: 287px;
+  position: absolute;
+  top: 322px;
+  transition: all 0.2s ease;
+}
+
+.homepage-1 .project:hover {
+  transform: scale(1.1);
+}
+
+.homepage-1 .overlap-group2 {
+  height: 287px;
+  position: relative;
+  width: 287px;
+}
+
+.homepage-1 .project-logo {
+  height: 185px;
+  left: 23px;
+  object-fit: cover;
+  position: absolute;
+  top: 56px;
+  width: 240px;
+}
+
+.homepage-1 .circle-1 {
+  height: 287px;
+  left: 0;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  width: 287px;
+}

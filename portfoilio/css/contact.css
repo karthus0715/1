@@ -1,0 +1,111 @@
+/* screen - contact */
+
+.contact {
+  align-items: flex-start;
+  background-color: var(--white);
+  cursor: pointer;
+  display: flex;
+  height: 790px;
+  overflow: hidden;
+  width: 1440px;
+}
+
+.contact .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61b5442fa2066833ee7a7053/files/flow-line1.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  height: 1018px;
+  margin-top: -90px;
+  min-width: 1440px;
+  padding: 129px 34px;
+}
+
+.contact .menu {
+  align-items: flex-start;
+  cursor: pointer;
+  display: flex;
+  min-width: 93px;
+}
+
+.contact .overlap-group {
+  height: 78px;
+  position: relative;
+  width: 93px;
+}
+
+.contact .x2 {
+  height: 62px;
+  left: 7px;
+  object-fit: cover;
+  position: absolute;
+  top: 10px;
+  width: 79px;
+}
+
+.contact .x7 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 20px;
+  left: 73px;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.contact .x15 {
+  background-color: var(--white);
+  border-radius: 10px;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 20px;
+}
+
+.contact .x17 {
+  background-color: var(--orange-peel);
+  border-radius: 10px;
+  height: 20px;
+  left: 37px;
+  position: absolute;
+  top: 58px;
+  width: 20px;
+}
+
+.contact .x8 {
+  align-self: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61b5442fa2066833ee7a7053/files/facebook-logo.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 236px;
+  margin-left: 133px;
+  margin-top: 178.0px;
+  width: 236px;
+}
+
+.contact .x5cd3e44a3f8b4fc5ab7b8ca1cc226957 {
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61b5442fa2066833ee7a7053/files/ins.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  border-radius: 96px;
+  cursor: pointer;
+  height: 192px;
+  margin-left: 127px;
+  margin-top: 119px;
+  width: 192px;
+}
+
+.contact .x1 {
+  align-self: center;
+  background-image: url(https://anima-uploads.s3.amazonaws.com/projects/61b5442fa2066833ee7a7053/files/gmail.gif);
+  background-position: 50% 50%;
+  background-size: cover;
+  cursor: pointer;
+  height: 202px;
+  margin-left: 108px;
+  margin-top: 242.0px;
+  width: 202px;
+}

@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1440, maximum-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/about.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <script src="https://animaapp.s3.amazonaws.com/launchpad-static/launchpad.js"></script>
+    <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
+    <link rel="stylesheet" type="text/css" href="css/globals.css" />
+  </head>
+  <body style="margin: 0; background: #ffffff">
+    <input type="hidden" id="anPageName" name="page" value="about" />
+    <div class="container-center-horizontal">
+      <div class="about screen">
+        <div class="flex-col">
+          <div class="flex-col-1">
+            <div class="flex-row">
+              <div class="flex-col-2">
+                <a href="homepage.html" onclick="window.event.stopPropagation()" class="align-self-flex-start">
+                  <div class="menu">
+                    <div class="overlap-group">
+                      <img class="x2" src="img/file----2@1x.png" />
+                      <div class="x7 border-1px-dove-gray"></div>
+                      <div class="x6 border-1px-dove-gray"></div>
+                      <div class="x15 border-1px-dove-gray"></div>
+                    </div></div
+                ></a>
+                <div class="my-name-is">My name is</div>
+                <div class="name animate-enter">Kevin Xu</div>
+                <div class="i-am-a-user-experien">
+                  I am a user experience designer, who study in LCC,<br />I am good at UI design and love<br />to create
+                  cool things. <br />Scroll down to know more about me.
+                </div>
+              </div>
+              <div class="overlap-group2">
+                <div class="image"><img class="img_8207" src="img/img-8207@1x.png" /></div>
+                <img class="x1-4" src="img/file------1-4@1x.png" />
+              </div>
+            </div>
+            <a href="#painting" onclick="window.event.stopPropagation()">
+              <div class="arrow">
+                <div class="x7-1"></div>
+                <div class="x8"></div></div
+            ></a>
+            <div class="painting applesdgothicneo-regular-normal-chicago-55px animate-enter1" id="painting">
+              Painting
+            </div>
+            <div class="i-like-painting-very applesdgothicneo-regular-normal-dove-gray-18px">
+              I like painting very much. Painting is not only exist for record the beauty of life, but also be a means
+              of creation.<br />Painting can bring me peace when I am anxious and comfort when I am sad.
+            </div>
+            <div class="flex-row-1">
+              <img class="x5" src="img/file---5@1x.png" />
+              <div class="overlap-group1">
+                <img class="x7-2" src="img/file------7-1-1@1x.png" />
+                <img class="img_4721-2" src="img/img-4721-2@1x.png" />
+                <img class="x6-1" src="img/file---6@1x.png" />
+                <img class="x7-3" src="img/file---7@1x.png" />
+              </div>
+            </div>
+            <div class="x3-d-modeling applesdgothicneo-regular-normal-chicago-55px animate-enter2">3D Modeling</div>
+            <div class="x3-d-modeling-is-a-big applesdgothicneo-regular-normal-dove-gray-18px">
+              3D modeling is a big hobby of mine because I’m interested in the combination of technology and art.<br />The
+              meta verse is my current field of interest, and I hope I can learn some knowledge related to it.
+            </div>
+          </div>
+          <div class="flex-row-2">
+            <img class="x35591639450764_pic_hd" src="img/35591639450764--pic-hd@1x.png" />
+            <div class="ezgifcom-gif-maker1"></div>
+            <div class="ezgifcom-gif-maker"></div>
+          </div>
+          <div class="photography applesdgothicneo-regular-normal-chicago-55px animate-enter3">Photography</div>
+          <div class="photography-changes applesdgothicneo-regular-normal-dove-gray-18px">
+            Photography changes the way you “see” in an amazing and interesting way: suddenly you notice light, shapes,
+            colors, textures, people, buildings, trees, flowers… When you become a photographer, everything around you
+            is different.
+          </div>
+        </div>
+        <div class="flex-row-3">
+          <img class="img_8252" src="img/img-8252@1x.png" />
+          <img class="img_8253" src="img/img-8253@1x.png" />
+          <div class="img_-container">
+            <img class="img_8255" src="img/img-8255@1x.png" />
+            <img class="img_8251" src="img/img-8251@1x.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function ShowOnScroll() {
+        this.toShow = [];
+        this.nextEventY = undefined;
+      }
+
+      ShowOnScroll.prototype.show = function (e) {
+        e.style.display = "";
+      };
+
+      ShowOnScroll.prototype.hide = function (e) {
+        e.style.display = "none";
+      };
+
+      ShowOnScroll.prototype.getTop = function (e) {
+        if (e.Top != undefined && e.Top != 0) {
+          return e.Top;
+        }
+        var top = 0;
+        var iter = e;
+        do {
+          top += iter.offsetTop || 0;
+          iter = iter.offsetParent;
+        } while (iter);
+        e.Top = top;
+        return top;
+      };
+
+      ShowOnScroll.prototype.onScroll = function () {
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        if (this.nextEventY == undefined || this.nextEventY > screenBottom) {
+          return;
+        }
+        this.nextEventY = undefined;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            this.show(e);
+            this.toShow.shift();
+            i--;
+          } else {
+            this.nextEventY = top;
+            break;
+          }
+        }
+      };
+
+      ShowOnScroll.prototype.resetScrolling = function () {
+        // Clear state
+        var screenBottom = window.pageYOffset + window.innerHeight;
+        for (var i = 0; i < this.toShow.length; i++) {
+          var e = this.toShow[i];
+          this.show(e);
+        }
+        this.toShow = [];
+        this.nextEventY == undefined;
+
+        // Collect items
+        var itemsToShowOnScroll = Array.prototype.slice.call(document.getElementsByTagName("*"));
+        itemsToShowOnScroll = itemsToShowOnScroll.filter(function (e) {
+          return e.getAttribute("show-on-scroll") != undefined;
+        });
+        var getTop = this.getTop;
+        itemsToShowOnScroll.sort(function (a, b) {
+          return getTop(a) - getTop(b);
+        });
+        for (var i = 0; i < itemsToShowOnScroll.length; i++) {
+          var e = itemsToShowOnScroll[i];
+          var top = this.getTop(e);
+          if (top < screenBottom) {
+            continue;
+          }
+          this.toShow.push(e);
+          this.hide(e);
+          this.nextEventY = this.nextEventY != undefined ? this.nextEventY : top;
+        }
+      };
+
+      ShowOnScroll.prototype.handleEvent = function (e) {
+        switch (e.type) {
+          case "scroll":
+            this.onScroll();
+            break;
+          case "resize":
+            this.resetScrolling();
+            break;
+        }
+      };
+
+      ShowOnScroll.prototype.init = function () {
+        this.resetScrolling();
+        window.addEventListener("scroll", this);
+        window.addEventListener("resize", this);
+      };
+
+      // After anima-src
+      setTimeout(function () {
+        var instShowOnScroll = new ShowOnScroll();
+        instShowOnScroll.init();
+      }, 250);
+    </script>
+  </body>
+</html>
